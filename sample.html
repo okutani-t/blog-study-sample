@@ -1,52 +1,152 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="utf-8">
-  <title>ブロガー向け勉強会サンプルサイト</title>
-  <style>
-  * {
-    box-sizing: border-box;
-  }
-  body {
-    font-family: Arial, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
-    background: #e0e0e0;
-    font-size: 18px;
-    color: #434343;
-    font-family: Arial, sans-serif;
-  }
-  header {
-    text-align: center;
-  }
-  #container {
-    width: 940px;
-    margin: 0 auto;
-  }
-  footer {
-    text-align: center;
-    color: #fff;
-    background: #ccc;
-  }
-  </style>
-  <!-- <link rel="shortcut icon" href="favicon.ico"> -->
-</head>
-<body>
-  <div id="container">
-    <header>
+  <head>
+    <meta charset="utf-8">
+    <title>ブロガー勉強会のためのサイト</title>
+    <style>
+     * {
+       box-sizing: border-box;
+     }
+     body {
+       margin:0;
+       padding:0;
+       font-family: Arial, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+       font-size: 16px;
+       background-color: #f8f8f8;
+       color: #434343;
+     }
+     a {
+       color: #2098A8;
+     }
+     a: hover {
+       color: #C03;
+     }
+     .header {
+       text-align: center;
+       background-color: #fff;
+       box-shadow: 0 0 10px 1px #aaa;
+     }
+     .wrapper {
+       width: 970px;
+       margin: 30px auto 40px;
+     }
+     .main {
+       width: 660px;
+       float: left;
+       box-shadow: 0 0 10px 1px #bbb;
+       background-color: #fff;
+       border-radius: 5px;
+       padding: 25px;
+     }
+     h1 {
+       font-size: 28px;
+       border-left: 10px solid #cc528b;
+       border-bottom: 3px solid #e2b2c0;
+       padding-left: 13px;
+     }
+     .date {
+       background-color: #eee;
+       text-align: right;
+       padding: 3px 10px;
+       border-radius: 3px;
+     }
+     .post-img {
+       display: block;
+       margin: 0 auto;
+     }
+     h2 {
+       color: #fff;
+       background-color: #51a1a2;
+       padding: 5px 30px;
+       margin: 40px -25px;
+     }
+     .badge {
+       font-size: 14px;
+       color: #fff;
+       background-color: #7b9ad0;
+       border-radius: 5px;
+       padding: 3px 5px;
+       margin-right: 10px;
+     }
+     .sidemenu {
+       width: 275px;
+       float: right;
+       box-shadow: 0 0 10px 1px #ddd;
+       background-color: #fff;
+       padding: 20px;
+       font-size: 14px;
+     }
+     h4 {
+       font-size: 17px;
+       border-bottom: 3px solid #a5d1f4;
+       padding-bottom: 5px;
+     }
+     .sns {
+       padding: 0;
+     }
+     .sns li {
+       list-style: none;
+       display: inline-block;
+     }
+     .clear {
+       clear: both;
+     }
+     .footer {
+       width: 100%;
+       text-align: center;
+       color: #fff;
+       background: #ccc;
+     }
+    </style>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+  </head>
+  <body>
+    <header class="header">
       <a href="#"><img src="./img/logo1.png" alt="ブロスタのタイトル画像です。"></a>
-      <nav>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Google</a></li>
-          <li><a href="#">test</a></li>
-        </ul>
-      </nav>
-
     </header>
+    <div class="wrapper">
+      <div class="main">
+        <h1>絶対行きたい！おすすめの絶景スポット10選</h1>
+        <p class="date">2015年11月22日</p>
+        <img class="post-img" src="img/huukei1.jpg" alt="花と空が見える画像。" width="580">
+        <p>最近絶景スポット巡りにハマっているokutani(<a href="https://twitter.com/okutani_t">@okutani_t</a>)です。</p>
+        <p>いつもこんな交通手段で絶景に行ってるよ！</p>
+        <ul>
+          <li>電車</li>
+          <li>車</li>
+          <li>チャリ</li>
+          <li>徒歩</li>
+        </ul>
+        <p>そんなこんなで絶景スポット10選を紹介します。</p>
+        
+        <h2>1. 一度はドライブしたい【北海道:美瑛】</h2>
+        <p>北海道の美瑛は一度はドライブしたいですね。</p>
 
-    <footer>
-      <p class="copyright"><small>copyright (C) ブロスタ All Rights Reserved.</small></p>
+        <span class="badge">LINK</span><a href="">美瑛のサイト</a>
+
+        <h2>2. 天然記念物の海【新潟:笹川流れ】</h2>
+        <p>新潟の笹川流れは綺麗な海です。</p>
+        <h2>まとめ</h2>
+        <p>どの絶景も一度は行ってみたいですね！</p>
+        <p>以上、絶対行きたいおすすめ絶景スポット10選でしたm(_ _)m</p>
+      </div>
+      <div class="sidemenu">
+        <h4>OLともちゃんのプロフィール</h4>
+        <img src="img/ol1.jpg" alt="ただのOL" width="100%">
+        <p>都内で働くOL。</p>
+        <p>誰もが一度は振り返る美人OL(当社調べ)。普段はおとなしいが、飲みの席では上司のかつらを外す奇行に走る、ちゃめっけ女子です。</p>
+        <h4>SNSでフォロー！</h4>
+        <ul class="sns">
+          <li><a href=""><img src="./img/twitter.jpg" width="70"></a></li>
+          <li><a href=""><img src="./img/facebook.jpg" width="70"></a></li>
+          <li><a href=""><img src="./img/rss.jpg" width="70"></a></li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+    </div><!-- /wrapper -->
+
+    <footer class="footer">
+      <small>copyright (C) ブロスタ All Rights Reserved.</small>
     </footer>
-  </div><!-- /container -->
-
-</body>
+  </body>
 </html>
