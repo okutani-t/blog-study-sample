@@ -51,6 +51,18 @@ html
 
 が一瞬で表示されて、非常に便利です。これだけでサイトの骨組みができてしまいます。
 
+**※ 追記**
+
+ChromeBookお使いの方はAtomが使えないので**Text**というアプリを使いましょう。
+
+> * [Text](https://chrome.google.com/webstore/detail/text/mmfbcljfglbokpmkimbfghdkjmjhdgbg)
+
+iPadをお使いの方は、専用のアプリを使うか、次のようなWeb上でHTMLが書けるサイトを利用しましょう。
+
+> * [Create a new fiddle - JSFiddle](https://jsfiddle.net/)
+
+また、エディタがなくても『メモ帳』なんかでも書くことができますが、見にくいので、なるべくならエディタを使うことをオススメします。
+
 ***
 
 ## HTMLとCSSについて
